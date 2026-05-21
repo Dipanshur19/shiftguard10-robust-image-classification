@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & model weights (too large for git — use git-lfs or Kaggle datasets)
+*.pth
+*.pt
+*.ckpt
+data/
+shift-guard-10-robust-image-classification-challenge/
+
+# Results (keep sample_submission, ignore personal submissions)
+results/submission*.csv
+submission*.csv
+!results/sample_submission.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
